@@ -1,4 +1,13 @@
 package org.example.probematura.dto;
 
-public record DistinctArticleDto() {
+import java.time.LocalDateTime;
+
+public record DistinctArticleDto(
+    Integer number,
+    String name,
+    LocalDateTime date,
+    String firstName,
+    String lastName
+) {
+
 }

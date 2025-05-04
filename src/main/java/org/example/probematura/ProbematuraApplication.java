@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ProbematuraApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(ProbematuraApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(ProbematuraApplication.class, args);
+    }
 
 }
